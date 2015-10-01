@@ -1,23 +1,24 @@
 {
   "name": "cm-payment-review",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "core-ajax-npm": "~0.0.0",
+    "polymer-serve": "~0.0.30"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "polymer-serve ./"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Custom-Elements/cm-payment-review.git"
+    "url": "git://github.com/Custom-Elements/cm-payment-review.git"
   },
-  "author": "drewtron@gmail.com",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Custom-Elements/cm-payment-review/issues"
   },
-  "homepage": "https://github.com/Custom-Elements/cm-payment-review",
-  "dependencies": {
-    "polymer-serve": "^0.0.30",
-    "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm"
-  }
+  "homepage": "https://github.com/Custom-Elements/cm-payment-review"
 }
