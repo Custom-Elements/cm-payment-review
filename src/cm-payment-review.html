@@ -1,0 +1,19 @@
+<link rel="import" href="../node_modules/core-ajax-npm/core-ajax.html">
+<polymer-element name="cm-payment-review" attributes="personId">
+  <template>
+    <link rel="stylesheet" type="text/css" href="./cm-payment-review.less">
+    
+    <core-ajax
+      auto
+      url="https://services.glgresearch.com/epiquery/cmpayments/payment_count_by_rm_and_date.mustache"
+      params='{"PERSON_ID":"{{personId}}","lastReviewDate":"{{lastReviewDate}}"}'
+      handleAs="json"
+      withCredentials="true"
+      on-core-response="{{onResponse}}"
+      on-core-error="{{onError}}"
+      on-core-complete="{{onComplete}}"></core-ajax>
+
+    <a href="https://services.glgresearch.com/cmpayments/#/"><span class="badge">{{payment_count}}</span> CM Payments</a>
+  </template>
+  <script src="./cm-payment-review.litcoffee"></script>
+</polymer-element>

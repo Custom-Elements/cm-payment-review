@@ -1,0 +1,23 @@
+{
+  "name": "cm-payment-review",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "polymer-serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Custom-Elements/cm-payment-review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Custom-Elements/cm-payment-review/issues"
+  },
+  "homepage": "https://github.com/Custom-Elements/cm-payment-review",
+  "dependencies": {
+    "polymer-serve": "^0.0.30",
+    "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm"
+  }
+}
