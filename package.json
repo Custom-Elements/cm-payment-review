@@ -6,10 +6,6 @@
   "scripts": {
     "test": "polymer-serve ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Custom-Elements/cm-payment-review.git"
-  },
   "author": "drewtron@gmail.com",
   "license": "ISC",
   "bugs": {
