@@ -19,5 +19,9 @@
   "dependencies": {
     "polymer-serve": "^0.0.30",
     "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm"
+  },
+  "engines": {
+    "npm": "2.5.1",
+    "node": "0.12.1"
   }
 }
