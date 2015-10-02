@@ -20,7 +20,7 @@
 
       ready: ->
         @payment_count = "..."
-        @lastReviewDate = @getCookie("cmpaymentlastreviewdate")
+        @lastReviewDate = decodeURIComponent @getCookie("cmpaymentlastreviewdate")
 
       attached: ->
 
@@ -29,8 +29,7 @@
       detached: ->
 
       onResponse: (e, response) ->
-        console.log response.response[0][""]
-        @payment_count = response.response[0][""]
+        @payment_count = response.response[0]["payment_count"]
 
       onError: (e, response) ->
         console.error "cm-payment-review. error"
