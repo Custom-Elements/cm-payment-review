@@ -1,7 +1,7 @@
 {
   "name": "cm-payment-review",
   "version": "1.0.0",
-  "description": "a",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "polymer-serve": "^0.0.30",
@@ -9,13 +9,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "polymer-serve ./"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Custom-Elements/cm-payment-review.git"
+    "url": "https://github.com/Custom-Elements/cm-payment-review.git"
   },
-  "author": "",
+  "author": "Andrew Friedrich <drewtron@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Custom-Elements/cm-payment-review/issues"
