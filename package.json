@@ -1,5 +1,5 @@
 {
-  "name": "cm-payment-review",
+  "name": "glg-cm-comments",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Custom-Elements/cm-payment-review.git"
+    "url": "https://github.com/Custom-Elements/glg-cm-comments.git"
   },
   "author": "Andrew Friedrich <drewtron@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Custom-Elements/cm-payment-review/issues"
+    "url": "https://github.com/Custom-Elements/glg-cm-comments/issues"
   },
-  "homepage": "https://github.com/Custom-Elements/cm-payment-review#readme"
+  "homepage": "https://github.com/Custom-Elements/glg-cm-comments#readme"
 }

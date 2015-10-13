@@ -1,8 +1,8 @@
 # Overview
 
-# The `cm-payment-review` Element
+# The `glg-cm-comments` Element
 
-    Polymer 'cm-payment-review',
+    Polymer 'glg-cm-comments',
 
       created: ->
 
@@ -16,10 +16,10 @@
       detached: ->
 
       onResponse: (e, response) ->
-        @payment_count = response.response[0]["payment_count"]
+        @comment_count = response.response[0]["comment_count"]
 
       onError: (e, response) ->
-        console.error "cm-payment-review. error"
+        console.error "glg-cm-comments. error"
         @payment_count = "?"
 
       onComplete: ->

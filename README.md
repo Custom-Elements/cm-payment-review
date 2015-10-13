@@ -1,1 +1,1 @@
-# cm-payment-review
+# glg-cm-comments
