@@ -2,10 +2,10 @@
 <polymer-element name="glg-cm-comments" attributes="personId">
   <template>
     <link rel="stylesheet" type="text/css" href="./glg-cm-comments.less">
-    
+
     <core-ajax
       auto
-      url="https://services.glgresearch.com/epiquery/cmcomments/comments_for_review_count.mustache"
+      url="https://services.glgresearch.com/epiquery_cached/cmcomments/comments_for_review_count.mustache"
       params='{"PERSON_ID":"{{personId}}"}'
       handleAs="json"
       withCredentials="true"
