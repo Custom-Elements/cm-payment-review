@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "polymer-serve": "^0.0.30",
-    "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm"
+    "core-ajax-npm": "git+https://github.com/custom-elements/core-ajax-npm"
   },
   "devDependencies": {},
   "scripts": {
